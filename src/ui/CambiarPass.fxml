@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="102.0" layoutY="35.0" text="Cambiar Contraseña">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="123.0" text="Nombre ">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="197.0" text="Nueva Contraseña">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="302.0" layoutY="126.0" />
+      <PasswordField fx:id="newpass" layoutX="323.0" layoutY="200.0" />
+      <Button fx:id="done" layoutX="287.0" layoutY="274.0" mnemonicParsing="false" text="Listo">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Button fx:id="back" layoutX="165.0" layoutY="276.0" mnemonicParsing="false" text="Volver">
+         <font>
+            <Font size="23.0" />
+         </font></Button>
+      <Label layoutX="46.0" layoutY="160.0" text="Vieja Contraseña">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="oldpass" layoutX="312.0" layoutY="163.0" />
+   </children>
+</AnchorPane>

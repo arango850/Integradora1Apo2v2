@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="773.0">
+         <children>
+            <Label layoutX="95.0" layoutY="14.0" text="Bienvenido ">
+               <font>
+                  <Font name="Segoe UI Bold" size="67.0" />
+               </font>
+            </Label>
+            <Label layoutX="169.0" layoutY="85.0" text="Digita tus datos de inicio de seión" />
+            <Label layoutX="56.0" layoutY="136.0" prefHeight="60.0" prefWidth="164.0" text="Usuario">
+               <font>
+                  <Font name="Segoe UI Bold" size="44.0" />
+               </font>
+            </Label>
+            <TextField fx:id="name" layoutX="322.0" layoutY="147.0" prefHeight="39.0" prefWidth="200.0" promptText="Digita tú cédula" />
+            <Label layoutX="56.0" layoutY="196.0" prefHeight="60.0" prefWidth="266.0" text="Contraseña">
+               <font>
+                  <Font name="Segoe UI Bold" size="44.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="pass" layoutX="322.0" layoutY="207.0" prefHeight="39.0" prefWidth="200.0" promptText="Digita tú contraseña" />
+            <Button fx:id="done" layoutX="189.0" layoutY="291.0" mnemonicParsing="false" style="-fx-background-color: #FF4200;" text="Iniciar Sesión" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="28.0" />
+               </font>
+            </Button>
+            <VBox layoutX="660.0" layoutY="-14.0" prefHeight="480.0" prefWidth="100.0" style="-fx-background-color: #FF6000;" />
+            <VBox layoutX="629.0" layoutY="-8.0" prefHeight="469.0" prefWidth="31.0" style="-fx-background-color: #FFEF00;" />
+            <Button fx:id="register" layoutX="228.0" layoutY="374.0" mnemonicParsing="false" text="Registro Admin" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

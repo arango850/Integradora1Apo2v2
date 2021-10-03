@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="107.0" layoutY="24.0" text="Bienvenido al Menú">
+         <font>
+            <Font name="Segoe UI Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="135.0" text="Módulo de personal">
+         <font>
+            <Font name="Segoe UI Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="194.0" text="Módulo de inventario">
+         <font>
+            <Font name="Segoe UI Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="253.0" text="Módulo de carta">
+         <font>
+            <Font name="Segoe UI Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="308.0" text="Módulo de pedidos">
+         <font>
+            <Font name="Segoe UI Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="personalBtn" layoutX="448.0" layoutY="132.0" mnemonicParsing="false" style="-fx-background-color: #FFC800;" text="Click Aquí">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="inventarioBtn" layoutX="448.0" layoutY="191.0" mnemonicParsing="false" style="-fx-background-color: #FF9200;" text="Click Aquí">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="combo" layoutX="448.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: #FF7000;" text="Click Aquí" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="448.0" layoutY="305.0" mnemonicParsing="false" style="-fx-background-color: #FF3A00;" text="Click Aquí" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="outt" layoutX="280.0" layoutY="406.0" mnemonicParsing="false" style="-fx-background-color: #FF2300;" text="Cerrar Sesión" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
